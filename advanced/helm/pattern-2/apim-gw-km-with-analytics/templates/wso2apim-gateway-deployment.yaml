@@ -141,7 +141,7 @@ spec:
               mountPath: /usr/share/logstash/plugins/
           env:
             - name: NODE_ID
-              value: {{ default "wso2apim-pub-store-tm-node-1" .Values.wso2.centralizedLogging.logstash.indexNodeID.wso2PubStoreTmNode1 }}
+              value: {{ default "wso2apim-gateway" .Values.wso2.centralizedLogging.logstash.indexNodeID.wso2Gateway }}
             - name: NODE_IP
               valueFrom:
                 fieldRef:

@@ -35,6 +35,7 @@ wso2:
         wso2ApimAnalyticsWorkerNode: "wso2-apim-analytics-worker-node"
         wso2apimKMNode: "wso2apim-km"
         wso2apimISasKMNode: "wso2apim-is-as-km-node"
+        wso2Gateway: "wso2apim-gateway"
 
 kubernetes:
   namespace: "wso2"
